@@ -1,5 +1,6 @@
 ﻿namespace Course.Entities
 {
+    // class abstract não pode ser instanciada.
     abstract class Account
     {
         public int Number { get; private set; }

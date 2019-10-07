@@ -9,6 +9,9 @@ namespace Course
     {
         static void Main(string[] args)
         {
+
+            // Mesmo account sendo abstract, posso colocar como lista.
+            // A lista sendo account, pode misturar subclasses;
             List<Account> list = new List<Account>();
 
             list.Add(new SavingsAccount(1001, "Alex", 500.00, 0.01));
